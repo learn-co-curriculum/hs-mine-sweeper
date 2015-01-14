@@ -21,12 +21,15 @@ Danny's Map
   [0,  0,   0,  0, '*']
 ]
 ```
-## Instructions
+### Instructions
 
-Before we can begin defusing the mines we need to figure out the most dangerous spots.  What we need you to do is to come up with a way to increment every tile that is one move away from each mine. So there at most 8 tiles affected by each mine.
+Before we can begin defusing the mines we need to figure out the most dangerous spots - by replacing the number zero with the number of mines that tile is touching.  To do this you'll need to come up with a way to increment the tiles +1 for every mine they are touching. (Take a look at the spec to get a sense of what your solved mine map should look like.)
 
-This is going to mean moving through each row on the map until you find a mine and then incrementing all the surrounding tiles by one.  Keep in mind (or should we say "mine"???) (I'm sorry for that) that this is going to need to happen one row at a time, and a row isn't finished until every affected tile is incremented.
+This is going to mean moving through each row on the map until you find a mine and then incrementing all the surrounding tiles by one.  Keep in mind (or should we say "mine"???) that this is going to need to happen one row at a time, and a row isn't finished until every affected tile is incremented.
+
+## Bonus
+Solve this using recursion.
 
 ## Resources
-* [Odin Project](http://www.theodinproject.com/) - [Recusion](http://www.theodinproject.com/ruby-programming/recursive-methods)
-* [Joshua Creek's Ruby Kickstart](http://vimeo.com/user3374111/videos) - [Introduction to Recusion](http://vimeo.com/24716767)
+* [Odin Project](http://www.theodinproject.com/) - [Recursion](http://www.theodinproject.com/ruby-programming/recursive-methods)
+* [Joshua Creek's Ruby Kickstart](http://vimeo.com/user3374111/videos) - [Introduction to Recursion](http://vimeo.com/24716767)
