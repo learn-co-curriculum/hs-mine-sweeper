@@ -1,17 +1,17 @@
 ---
-tags: recursion, todo
+tags: recursion, todo, ruby, kids
 languages: Ruby
 resources: 2
 level: intermediate
 ---
 
-# Mine Sweeper
+## Mine Sweeper
 
-## Background
+### Background
 
-Arel accidently placed mines around the campus.  What can we say? Mistakes were made. Luckily he mapped out the spots where he placed them in a two dimensional array.
+Danny accidentally placed mines around the campus.  What can we say? Mistakes were made. Luckily he mapped out the spots where he placed them in a two dimensional array.
 
-Arel's Map
+Danny's Map
 ```ruby
 [
   [0,  0,   0,  0, '*'],
